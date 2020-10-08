@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+public class Name
+{
+public static void main(String[] args)
+{
+String first = JOptionPane.showInputDialog("What is your first name");
+String middle = JOptionPane.showInputDialog("What is your middle name");
+String last = JOptionPane.showInputDialog("What is your last name");
+JOptionPane.showMessageDialog(null, "Hello " + first + " " + middle + " " + last)
+}
+}
